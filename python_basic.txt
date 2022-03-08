@@ -1,0 +1,50 @@
+https://www.youtube.com/playlist?list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0
+varibales
+numbers +-*/%
+round(float_number,n) - to get round number
+format(num,'b') - to convert given  number into binary format
+string:-
+\n,\t --> for new line and tab in the string
+string is immutable
+str(num)  will convert number to string and concatenate with strings
+string[index_value], string[start_index,wanted_index+1],string[-1]
+variable.replace('old','new)
+print(f'{variable1}\n{variable2}')
+list:-
+list.append('item')  --> to add a item in last index of the list
+list.insert(index_value,'item')  --> To insert a item in a specified index in list
+item in list --> gives True value if found otherwise false
+len(list) --> to get list length
+list[index_value], list[start_index,wanted_index+1],list[-1]
+if:-
+== operator to check both sides are equal
+!= not equal, <= less than or equal, >= greater than or equal to
+% reminder
+and 1 and 1  =  True, 1 or 0 0 or 1 = True
+for:-
+for i in range(start,end(n+1)), range(5)--> It starts from 0
+break --> use it when your goal is acheived and you need to terminate from that loop
+continue --> use it skip that statement and go to net iteration 
+while --> To execute if the statement is true. TIP: increment last statement to terminate 
+out while loop when u get the result what u want
+JSON:-
+immport json
+x=json.dumps(dict_variable_name):-It converts Dict format to json string format
+-----
+x=json.loads(dict_var_name):- It converts json string format to Dict format
+Exceptions:- 
+Exceptions are the errors detected at the time of program execution
+FirstClassFunctions:- if any function taking functions as parameter or return function.
+Generators:- It is used to print sequence of values. To return more than one value
+we use generators where we put (yield) in the function to get the output in sequence.
+To save memory we use generators.
+If we use variable in a function to return the o/p and we can get that variable and we
+can use that variable n number of times.But for generators we can get the o/p only for
+one time. 
+Multi-Threading vs Multi-Processing:- Multi-thread is lightweight and if any thread got
+error or memory leak, it will effect the other threads too.
+Multi-process is heavyweight and if there is any error or memory leak in one process, it
+won't effect other processes. 
+Multi-process has its own address space(virtual memory).Thus program variables are not
+shared between two procesess.you need to do interprocess communication(IPC) if you want
+to share data between processes.
